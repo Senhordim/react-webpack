@@ -1,9 +1,9 @@
-import React from 'react';
-
-const App = React.createClass({
-  render: function() {
-    return <h2>Bora lá</h2>
+import React, { Component } from 'react';
+export default class App extends Component {
+  render() {
+    return(
+      <h3>TODO 2</h3>
+    );
   }
-});
+}
 
-export default App;
