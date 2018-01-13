@@ -1,10 +1,10 @@
+'use strict'
+
 import React from 'react';
 
 var Title = React.createClass({
   render: function() {
-    return React.createElement(
-      'h2', { className: 'title' }, 'Olá mundo'
-    );
+    return <h2>My Title with React JSX2</h2>
   }
 });
 
