@@ -1,11 +1,9 @@
-'use strict'
-
 import React from 'react';
 
-var Title = React.createClass({
+const App = React.createClass({
   render: function() {
-    return <h2>My Title with React JSX2</h2>
+    return <h2>Bora lá</h2>
   }
 });
 
-export default Title;
+export default App;
